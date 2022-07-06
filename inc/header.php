@@ -26,6 +26,10 @@
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Sintony&family=Source+Sans+Pro:wght@900&display=swap" rel="stylesheet">
+
   <!--<meta name="theme-color" content="#ed1c24" />-->
 
   <link rel="stylesheet" href="assets/css/main.min.css?<?php echo filemtime( 'assets/css/main.min.css' ); ?>" />
@@ -51,24 +55,24 @@
         <nav class="l-mainNavigation">
           <ul class="b-mainNavigation">
             <li class="b-mainNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Products</a>
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Products</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'services' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Services</a>
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Services</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'features' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Features</a>
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Features</a>
             </li>
             <li class="b-mainNavigation__item<?php echo ( $uri == 'plans&pricing' ) ? ' -state_active' : ''; ?>">
-              <a class="b-mainNavigation__link" href="index.html">Plans & Pricing</a>
+              <a class="b-mainNavigation__link hvr-underline-from-center" href="index.html">Plans & Pricing</a>
             </li>
           </ul>
           <ul class="b-siteAuth">
             <li class="b-siteAuth__item">
-              <a class="b-siteAuth__link" href="index.html">Sign in</a>
+              <a class="b-siteAuth__link hvr-underline-from-center" href="index.html">Sign in</a>
             </li>
             <li class="b-siteAuth__item">
-              <a class="b-siteAuth__link" href="index.html">Sign Up</a>
+              <a class="b-siteAuth__link -button hvr-shutter-out-horizontal" href="index.html">Sign Up</a>
             </li>
           </ul>
         </nav>

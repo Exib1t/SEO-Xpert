@@ -13,7 +13,7 @@
 @import 'sprites';
 
 /* Plugins */
-
+@import 'plugins/hover/hover';
 
 /* ==|== primary styles =====================================================
    Authors: %Author Name%
@@ -35,6 +35,8 @@
 @import 'blocks/b-siteCopyright';
 @import 'blocks/b-developerCopyright';
 @import 'blocks/b-firstScreen';
+@import 'blocks/b-siteAuth';
+@import 'blocks/b-contentAnalysis';
 
 
 /**

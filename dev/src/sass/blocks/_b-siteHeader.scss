@@ -6,11 +6,21 @@
   top: 0;
   left: 0;
   width: 100%;
+  display: flex;
+  justify-content: center;
   background: none;
   padding: 0;
   margin: 0;
   z-index: 999;
 }
-.b-siteHeader {
 
+.b-siteHeader {
+  width: 100%;
+  max-width: 1153px;
+  box-sizing: border-box;
+  padding: 44px 20px;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }

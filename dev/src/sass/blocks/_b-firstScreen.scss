@@ -1,10 +1,62 @@
 .l-firstScreen {
+  display: block;
   width: 100%;
-  height: 100vh;
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .b-firstScreen {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1153px;
+  box-sizing: border-box;
+  padding: 230px 20px 260px 20px;
+  margin: 0 auto;
 
+  &__title {
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 36px 0;
+    width: 100%;
+    max-width: 577px;
+  }
+
+  &__text {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    padding: 0;
+    margin: 0 0 40px 0;
+    width: 100%;
+    max-width: 380px;
+  }
+
+  &__button {
+    text-decoration: none;
+    background: #FFFFFF;
+    border-radius: 26px;
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: 4.2px;
+    text-transform: uppercase;
+    color: #000;
+    box-sizing: border-box;
+    padding: 14px 27px;
+    overflow: auto;
+  }
 }
