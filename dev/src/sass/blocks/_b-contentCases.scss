@@ -1,0 +1,120 @@
+.l-contentCases {
+  width: 100%;
+  background: none;
+  padding: 0;
+  margin: 0;
+}
+
+.b-contentCases {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 1153px;
+  box-sizing: border-box;
+  padding: 0 20px;
+  margin: 0 auto;
+
+  &__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0 0 40px 0;
+  }
+
+  &__title {
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__link {
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    line-height: 16px;
+    letter-spacing: 0.541667px;
+    text-transform: uppercase;
+    color: #000000;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+    &::before {
+      background: #000;
+    }
+  }
+
+  &__cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    gap: 27px;
+  }
+
+  &__card {
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    background: #FFFFFF;
+    border: 1px solid #E2E2E2;
+    border-radius: 19px;
+
+    &Img {
+      height: 100%;
+    }
+
+    &Column {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      box-sizing: border-box;
+      padding: 20px;
+      margin: 0;
+    }
+
+    &Title {
+      font-family: $OSPro;
+      font-style: normal;
+      font-weight: 900;
+      font-size: 18px;
+      line-height: 27px;
+      color: #000000;
+      padding: 0;
+      margin: auto 0 16px 0;
+    }
+
+    &Text {
+      font-family: $Sintony;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 27px;
+      color: #222A41;
+      padding: 0;
+      margin: 0 0 auto 0;
+    }
+
+    &Logo {
+      width: 100%;
+      max-width: 125px;
+      padding: 0;
+      margin: 0;
+    }
+  }
+}

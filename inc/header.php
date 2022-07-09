@@ -72,7 +72,7 @@
               <a class="b-siteAuth__link hvr-underline-from-center" href="index.html">Sign in</a>
             </li>
             <li class="b-siteAuth__item">
-              <a class="b-siteAuth__link -button hvr-shutter-out-horizontal" href="index.html">Sign Up</a>
+              <a class="b-siteAuth__link -button hvr-glow" href="index.html">Sign Up</a>
             </li>
           </ul>
         </nav>

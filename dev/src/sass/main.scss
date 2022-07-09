@@ -14,6 +14,7 @@
 
 /* Plugins */
 @import 'plugins/hover/hover';
+@import 'plugins/slick';
 
 /* ==|== primary styles =====================================================
    Authors: %Author Name%
@@ -37,6 +38,12 @@
 @import 'blocks/b-firstScreen';
 @import 'blocks/b-siteAuth';
 @import 'blocks/b-contentAnalysis';
+@import 'blocks/b-contentInfo';
+@import 'blocks/b-contentCases';
+@import 'blocks/b-contentTestimonials';
+@import 'blocks/b-contentBrands';
+@import 'blocks/b-contentTeam';
+@import 'blocks/b-contentTraffic';
 
 
 /**

@@ -12,7 +12,7 @@ require( 'inc/header.php' );
       <div class="b-firstScreen__text b-text">
         <p>If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
       </div>
-      <a href="#" class="b-firstScreen__button hvr-shutter-out-horizontal">Sign Up</a>
+      <a href="#" class="b-firstScreen__button hvr-glow">Sign Up</a>
     </div>
   </section>
 
@@ -105,6 +105,200 @@ require( 'inc/header.php' );
       </div>
     </div>
   </section>
+
+  <section class="l-contentInfo" style="background-image: url('assets/img/userfiles/contentInfo-BG.png')">
+    <div class="b-contentInfo">
+      <img src="assets/img/userfiles/contentInfo-image.png" alt="" class="b-contentInfo__img">
+      <div class="b-contentInfo__side">
+        <img src="assets/img/userfiles/contentInfo-icon.svg" alt="" class="b-contentInfo__icon">
+        <h3 class="b-contentInfo__title">Backlink Analysis</h3>
+        <div class="b-contentInfo__text b-text">
+          <p>
+            If the path is beautiful, let us not k where it leads. my religion is very simple.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentInfo" style="background-image: url('assets/img/userfiles/contentInfo-reversed-BG.png')">
+    <div class="b-contentInfo -reversed">
+      <img src="assets/img/userfiles/contentInfo-reversed-image.png" alt="" class="b-contentInfo__img">
+      <div class="b-contentInfo__side">
+        <img src="assets/img/userfiles/contentInfo-reversed-icon.svg" alt="" class="b-contentInfo__icon">
+        <h3 class="b-contentInfo__title">Online Marketing</h3>
+        <div class="b-contentInfo__text b-text">
+          <p>
+            If the path is beautiful, let us not k where it leads. my religion is very simple.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentInfo" style="background-image: url('assets/img/userfiles/contentInfo-BG.png')">
+    <div class="b-contentInfo -design">
+      <img src="assets/img/userfiles/contentInfo-design-image.png" alt="" class="b-contentInfo__img">
+      <div class="b-contentInfo__side">
+        <img src="assets/img/userfiles/contentInfo-design-icon.png" alt="" class="b-contentInfo__icon">
+        <h3 class="b-contentInfo__title">Website Design</h3>
+        <div class="b-contentInfo__text b-text">
+          <p>
+            If the path is beautiful, let us not k where it leads. my religion is very simple.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentCases">
+    <div class="b-contentCases">
+      <div class="b-contentCases__row">
+        <h3 class="b-contentCases__title">Case Studies</h3>
+        <a class="b-contentCases__link hvr-underline-from-center" href="#">View all Team Members</a>
+      </div>
+      <div class="b-contentCases__cards">
+        <div class="b-contentCases__card">
+          <img src="assets/img/userfiles/contentCases-cardImg.jpg" alt="" class="b-contentCases__cardImg">
+          <div class="b-contentCases__cardColumn">
+            <h4 class="b-contentCases__cardTitle">Research Center</h4>
+            <div class="b-contentCases__cardText">
+              <p>
+                If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful…
+              </p>
+            </div>
+            <img src="assets/img/userfiles/contentCases-cardLogo.svg" alt="" class="b-contentCases__cardLogo">
+          </div>
+        </div>
+
+        <div class="b-contentCases__card">
+          <img src="assets/img/userfiles/contentCases-cardImg.jpg" alt="" class="b-contentCases__cardImg">
+          <div class="b-contentCases__cardColumn">
+            <h4 class="b-contentCases__cardTitle">Research Center</h4>
+            <div class="b-contentCases__cardText">
+              <p>
+                If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful…
+              </p>
+            </div>
+            <img src="assets/img/userfiles/contentCases-cardLogo2.svg" alt="" class="b-contentCases__cardLogo">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentTestimonials" style="background-image: url('assets/img/userfiles/contentTestimonials-BG.png')">
+    <div class="b-contentTestimonials">
+      <div class="b-contentTestimonials__side">
+        <h6 class="b-contentTestimonials__title">Testimonial</h6>
+        <h3 class="b-contentTestimonials__subtitle">See why the world’s best companies use SEO-Expert.</h3>
+        <div class="b-contentTestimonials__text b-text">
+          <p>If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+        </div>
+        <div class="b-contentTestimonials__sliderNav js-sliderNav"></div>
+      </div>
+
+      <div class="b-contentTestimonials__slider js-slider">
+        <div class="b-contentTestimonials__slide">
+          <div class="b-contentTestimonials__slideText b-text">
+            <p>If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+          </div>
+          <div class="b-contentTestimonials__row">
+            <img src="assets/img/userfiles/contentTestimonials-slideImg.png" alt="" class="b-contentTestimonials__slideImg">
+            <div class="b-contentTestimonials__column">
+              <h5 class="b-contentTestimonials__slideName">Hallie Little</h5>
+              <h6 class="b-contentTestimonials__slideCompany">Project-9 Studio</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-contentTestimonials__slide">
+          <div class="b-contentTestimonials__slideText b-text">
+            <p>If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+          </div>
+          <div class="b-contentTestimonials__row">
+            <img src="assets/img/userfiles/contentTestimonials-slideImg.png" alt="" class="b-contentTestimonials__slideImg">
+            <div class="b-contentTestimonials__column">
+              <h5 class="b-contentTestimonials__slideName">Hallie Little</h5>
+              <h6 class="b-contentTestimonials__slideCompany">Project-9 Studio</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-contentTestimonials__slide">
+          <div class="b-contentTestimonials__slideText b-text">
+            <p>If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+          </div>
+          <div class="b-contentTestimonials__row">
+            <img src="assets/img/userfiles/contentTestimonials-slideImg.png" alt="" class="b-contentTestimonials__slideImg">
+            <div class="b-contentTestimonials__column">
+              <h5 class="b-contentTestimonials__slideName">Hallie Little</h5>
+              <h6 class="b-contentTestimonials__slideCompany">Project-9 Studio</h6>
+            </div>
+          </div>
+        </div>
+
+        <div class="b-contentTestimonials__slide">
+          <div class="b-contentTestimonials__slideText b-text">
+            <p>If the path is beautiful, let us not k where it leads. my religion is very simple.If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+          </div>
+          <div class="b-contentTestimonials__row">
+            <img src="assets/img/userfiles/contentTestimonials-slideImg.png" alt="" class="b-contentTestimonials__slideImg">
+            <div class="b-contentTestimonials__column">
+              <h5 class="b-contentTestimonials__slideName">Hallie Little</h5>
+              <h6 class="b-contentTestimonials__slideCompany">Project-9 Studio</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentBrands">
+    <div class="b-contentBrands">
+      <div class="b-contentBrands__side">
+        <h3 class="b-contentBrands__title">Trusted By The World’s Best Brand</h3>
+        <div class="b-contentBrands__text b-text">
+          <p>If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+        </div>
+      </div>
+      <div class="b-contentBrands__logos">
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo1.svg" alt="" class="b-contentBrands__logo"></a>
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo2.svg" alt="" class="b-contentBrands__logo"></a>
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo3.svg" alt="" class="b-contentBrands__logo"></a>
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo4.svg" alt="" class="b-contentBrands__logo"></a>
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo5.svg" alt="" class="b-contentBrands__logo"></a>
+        <a href=""><img src="assets/img/userfiles/contentBrands-logo6.svg" alt="" class="b-contentBrands__logo"></a>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentTeam">
+    <div class="b-contentTeam">
+      <img src="assets/img/userfiles/contentTeam.jpg" alt="" class="b-contentTeam__img">
+      <div class="b-contentTeam__side">
+        <h3 class="b-contentTeam__title">Team</h3>
+        <div class="b-contentTeam__text b-text">
+          <p>If the path is beautiful, let us not where it leads. my religion is very simple.</p>
+          <p>If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+        </div>
+        <a class="b-contentTeam__link" href="#">View all Team Members</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="l-contentTraffic">
+    <div class="b-contentTraffic">
+      <div class="b-contentTraffic__wrapper"  style="background-image: url('assets/img/userfiles/contentTraffic-BG.jpg')">
+        <h3 class="b-contentTraffic__title">Boost your Website Traffic</h3>
+        <div class="b-contentTraffic__text">
+          <p>If the path is beautiful, let us not where it leads. my religion is very simple.</p>
+        </div>
+        <a href="#" class="b-contentTraffic__link hvr-glow">Sign Up</a>
+      </div>
+    </div>
+  </section>
+
 </main>
 
 <?php require( 'inc/footer.php' ); ?>

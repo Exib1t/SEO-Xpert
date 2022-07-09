@@ -2,8 +2,65 @@
  * @section siteFooter
  */
 .l-siteFooter {
-
+  width: 100%;
+  background: none;
+  padding: 0;
+  margin: 0;
 }
 .b-siteFooter {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  max-width: 1153px;
+  box-sizing: border-box;
+  padding: 0 20px 92px 20px;
+  margin: 0 auto;
+  gap: 140px;
 
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 27px;
+    color: #000000;
+    padding: 0;
+    margin: 0 0 26px 0;
+
+    &::before {
+      content: "";
+      background-image: url('../../assets/img/userfiles/siteFooter-logo.svg');
+      background-repeat: no-repeat;
+      background-size: cover;
+      width: 18px;
+      display: block;
+      height: 18px;
+      padding: 0;
+      margin: 0 15px 0 0;
+    }
+  }
+
+  &__text {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222A41;
+    padding: 0;
+    margin: 0;
+    max-width: 308px;
+  }
 }

@@ -1,0 +1,151 @@
+.l-contentTestimonials {
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 0;
+  margin: 0;
+}
+
+.b-contentTestimonials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  max-width: 1153px;
+  box-sizing: border-box;
+  padding: 241px 20px 327px 20px;
+  margin: 0 auto;
+  gap: 72px;
+
+  &__side {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    max-width: 308px;
+  }
+
+  &__title {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 16px;
+    color: #3A55E6;
+    padding: 0;
+    margin: 0 0 15px 0;
+  }
+
+  &__subtitle {
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+    line-height: 36px;
+    color: #000000;
+    padding: 0;
+    margin: 0 0 24px 0;
+  }
+
+  &__text {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222A41;
+    padding: 0;
+    margin: 0 0 45px 0;
+  }
+
+  &__sliderNav {
+    display: flex;
+    gap: 27px;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    width: 70%;
+  }
+
+  &__slide {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #F8F8F8;
+    border-radius: 19px;
+    box-sizing: border-box;
+    padding: 35px;
+    margin: 0 27px;
+    gap: 40px;
+  }
+
+  &__slideText {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #222A41;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__row {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: auto 0 0 0;
+    gap: 20px;
+  }
+
+  &__slideImg {
+    width: 70px;
+    height: 70px;
+    border-radius: 35px;
+  }
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+  }
+
+  &__slideName {
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #000000;
+    padding: 0;
+    margin: 0 0 5px 0;
+  }
+
+  &__slideCompany {
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #293340;
+    opacity: 0.6;
+    padding: 0;
+    margin: 0;
+  }
+}

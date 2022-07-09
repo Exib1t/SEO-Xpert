@@ -2,18 +2,79 @@
 
     <footer class="l-siteFooter">
       <div class="b-siteFooter">
-        <div class="l-bottomNavigation" role="navigation">
-          <ul class="b-bottomNavigation">
-            <li class="b-bottomNavigation__item<?php echo ( $uri == 'home' ) ? ' -state_active' : ''; ?>">
-              <a class="b-bottomNavigation__link" href="index.html">Home</a>
-            </li>
-          </ul>
+
+        <div class="b-siteFooter__column">
+          <h5 class="b-siteFooter__title">SEO-Xpert</h5>
+          <div class="b-siteFooter__text">
+            <p>If the path is beautiful, let us not k where it leads. my religion is very simple.</p>
+          </div>
         </div>
 
-        <address class="l-siteCopyright vcard" itemscope itemtype="http://schema.org/Organization">
-          <div class="b-siteCopyright">© <?php echo date( 'Y' ); ?> <a rel="me" itemprop="name" class="b-siteCopyright__link fn n org url work" href="<?php echo "http://" . $_SERVER['HTTP_HOST']; ?>">%clientName%</a>. Все права защищены</div>
-          <div class="b-developerCopyright">Разработано в <a class="b-developerCopyright__link" href="https://ideus.biz/" rel="friend" target="_blank">iDeus</a></div>
-        </address>
+        <div class="l-bottomNavigation" role="navigation">
+          <div class="b-bottomNavigation">
+            <ul class="b-bottomNavigation__column">
+              <h6 class="b-bottomNavigation__columnTitle">Company</h6>
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'about' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">About</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'blog' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Blog</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'careers' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Careers</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'press' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Press</a>
+              </li>
+            </ul>
+
+            <ul class="b-bottomNavigation__column">
+              <h6 class="b-bottomNavigation__columnTitle">Community</h6>
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'about' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Open Source</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'blog' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Winners</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'careers' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Forum</a>
+              </li>
+            </ul>
+
+            <ul class="b-bottomNavigation__column">
+              <h6 class="b-bottomNavigation__columnTitle">Solutions</h6>
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'about' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Server</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'blog' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">SEO</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'careers' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link" href="index.html">Design</a>
+              </li>
+            </ul>
+
+            <ul class="b-bottomNavigation__column">
+              <h6 class="b-bottomNavigation__columnTitle -cloud">Cloud.com</h6>
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'about' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link -mail" href="index.html">Contact@cloud.com</a>
+              </li>
+
+              <li class="b-bottomNavigation__item<?php echo ( $uri == 'blog' ) ? ' -state_active' : ''; ?>">
+                <a class="b-bottomNavigation__link -phone" href="index.html">00000-000-00</a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+
       </div>
     </footer>
   </div><!--wrapper-->

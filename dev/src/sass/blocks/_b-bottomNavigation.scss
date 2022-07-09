@@ -2,23 +2,105 @@
  * @section bottomNavigation
  */
 .l-bottomNavigation {
-
+  background: none;
+  padding: 0;
+  margin: 0;
+  width: max-content;
 }
 .b-bottomNavigation {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
   margin: 0;
   padding: 0;
-  list-style: none;
+  gap: 85px;
+
+  &__column {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    width: max-content;
+
+    .b-bottomNavigation__item {
+      &:last-of-type {
+        margin: 0;
+      }
+    }
+  }
+
+  &__columnTitle {
+    display: flex;
+    align-items: center;
+    font-family: $OSPro;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 24px;
+    color: #242635;
+    padding: 0;
+    margin: 0 0 41px 0;
+
+    &.-cloud {
+      &::before {
+        content: "";
+        display: block;
+        background-image: url("/assets/img/userfiles/siteFooter-icon1.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0 15px 0 0;
+        width: 24px;
+        height: 24px;
+      }
+    }
+  }
 
   &__item {
-    color: #464646;
-
-    &.-state_active {
-
-    }
+    padding: 0;
+    margin: 0 0 32px 0;
   }
 
   &__link {
     @include hover-underline;
-    color: inherit;
+    font-family: $Sintony;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+    color: #6D7783;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+
+    &.-mail {
+      &::before {
+        content: "";
+        display: block;
+        background-image: url("/assets/img/userfiles/siteFooter-icon2.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0 15px 0 0;
+        width: 18px;
+        height: 12px;
+      }
+    }
+
+    &.-phone {
+      &::before {
+        content: "";
+        display: block;
+        background-image: url("/assets/img/userfiles/siteFooter-icon3.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        padding: 0;
+        margin: 0 15px 0 0;
+        width: 14px;
+        height: 14px;
+      }
+    }
   }
 }
